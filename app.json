@@ -1,0 +1,15 @@
+{
+    "name": "disqus-proxy heroku use hexo",
+    "description": "koa node>=7.6",
+    "repository": "https://github.com/chinanf-boy/disqus-proxy-heroku",
+    "env": {
+        "DISQUS_API_SECRECT": {
+          "description": "disqus api key",
+          "value": ""
+        },
+        "DISQUS_SHORT_NAME": {
+          "description": "DISQUS_SHORT_NAME.disqus.com",
+          "value": ""
+        }
+      }
+  }

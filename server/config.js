@@ -31,6 +31,10 @@ module.exports = (() => {
   }
 
   if (process.env.DISQUS_SHORT_NAME != undefined) {
+    config.api_secret = process.env.DISQUS_SHORT_NAME;
+  }
+
+  if (process.env.DISQUS_SHORT_NAME != undefined) {
     config.shortname = process.env.DISQUS_SHORT_NAME;
   }
 
