@@ -34,7 +34,9 @@ export default class Notification extends Component {
     return (
       <div style={{
              ...styles.notification,
+             display: this.state.show ? 'block': 'none',
              right: this.state.show ? 40 : '-100%'
+             
            }}>
         <div style={{
           marginBottom: 6,

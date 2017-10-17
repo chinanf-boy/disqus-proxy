@@ -20,8 +20,7 @@ export default class DisqusProxy extends Component {
     // 用文字标识符获取评论
     const identifier = window.disqusProxy.identifier
     const query = 'identifier=' + encodeURIComponent(identifier)
-    const url = '//' + window.disqusProxy.server + ':'
-      + window.disqusProxy.port.toString() + '/api/getComments'
+    const url = 'https://' + window.disqusProxy.server + '/api/getComments'
     try {
       const result = await fetch(url + '?' + query)
       const res = await result.json()
@@ -56,7 +55,7 @@ export default class DisqusProxy extends Component {
         {showNotification && (
           <Notification title={notificationTitle}
                         body={notificationBody}
-                        duration={50000}/>
+                        duration={5000}/>
         )}
         <CommentList comments={comments} isLoading={isFetchingComment}/>
       </div>

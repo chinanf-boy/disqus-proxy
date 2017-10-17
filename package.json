@@ -34,5 +34,8 @@
     "server": "node server/index.js",
     "pm2server": "pm2 server/index.js"
   },
+  "engines": {
+    "node": ">=7.6"
+  },
   "license": "MIT"
 }

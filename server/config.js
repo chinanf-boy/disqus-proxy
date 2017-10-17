@@ -1,14 +1,14 @@
 config = {
   // 服务端端口，需要与disqus-proxy前端设置一致
-  port: 5509,
+  port: 8080,
 
   // 你的diqus secret key
-  api_secret: 'your secret key',
+  api_secret: '6H88h82c11dxcNvIJFz3yinIYXTawrsZNKrAYboiWMBKNVtBU1KfSjIqLNx7wh0M',
 
   // 你的website的 shortname 名称 比如在你的disqus安装代码中 有这样一句脚本：
   // s.src = 'https://test-eo9kkdlcze.disqus.com/embed.js';
   // 那么你的disqus 的shortname 就是 test-eo9kkdlcze
-  shortname: 'ciqu',
+  shortname: 'yobrave',
 
   // 服务端socks5代理转发，便于在本地测试，生产环境通常为null
   // socks5Proxy: {
@@ -24,9 +24,7 @@ config = {
 
 module.exports = (() => {
 
-  if (process.env.DISQUS_PORT != undefined) {
-    config.port = process.env.DISQUS_PORT;
-  }
+    config.port = process.env.PORT;
 
   if (process.env.DISQUS_API_SECRECT != undefined) {
     config.api_secret = process.env.DISQUS_API_SECRECT;
