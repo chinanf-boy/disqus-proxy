@@ -120,8 +120,7 @@ export default class commentBox extends Component {
       author_email: this.state.authorEmail,
       message: this.state.message
     }
-    const url = '//' + window.disqusProxy.server + ':'
-      + window.disqusProxy.port.toString() + '/api/createComment'
+    const url = 'https://' + window.disqusProxy.server + '/api/createComment'
 
     return fetch(url, {
       method: 'POST',
