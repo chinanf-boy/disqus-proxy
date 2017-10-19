@@ -68,8 +68,9 @@ disqus_proxy:
 关于博文页面的模板中的合适的位置就行了。
 
 
-Done!
+#Done!！
 
+#### 三个库 heroku，github，npm
 
 ## 未来 ：
 
