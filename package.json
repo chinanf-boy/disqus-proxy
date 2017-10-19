@@ -43,7 +43,6 @@
     "build": "webpack",
     "start": "node server/index.js",
     "debug": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "publish": "npm publish",
     "deploy": "git push heroku master"
   },
   "engines": {
