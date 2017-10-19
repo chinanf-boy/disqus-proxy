@@ -1,9 +1,9 @@
 config = {
-  // 服务端端口，需要与disqus-proxy前端设置一致
-  port: 8080,
+  // // 服务端端口，需要与disqus-proxy前端设置一致
+  // port: 8080,
 
   // 你的diqus secret key
-  api_secret: '6H88h82c11dxcNvIJFz3yinIYXTawrsZNKrAYboiWMBKNVtBU1KfSjIqLNx7wh0M',
+  api_secret: '',
 
   // 你的website的 shortname 名称 比如在你的disqus安装代码中 有这样一句脚本：
   // s.src = 'https://test-eo9kkdlcze.disqus.com/embed.js';

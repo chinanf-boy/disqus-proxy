@@ -19,6 +19,8 @@ DISQUS_SHORT_NAME:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chinanf-boy/disqus-proxy-heroku)
 
+### Tips: 在``heroku`` 可以设置 链接`` github`` 项目时，自动部署，新的`` git commit`` 中 开头或 结尾 要是`` ci ``才会执行
+
 #### 获取`api-secret`
 
 在使用本插件之前需要在 Disqus 申请开启 api 权限。访问[register new application](https://disqus.com/api/applications/register/) 就可以注册一个 application.然后在[applications](https://disqus.com/api/applications/)可以看到你的 application 列表。其中 Secret Key 就是我们需要的api-secret,并且需要在后台的Settings => Community里开启访客评论
