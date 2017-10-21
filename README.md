@@ -72,8 +72,17 @@ disqus_proxy:
 
 #### 三个库 heroku，github，npm
 
-## 未来 ：
+## 历史版本：
 
-# 把 react -> preact 真的大 ``react`` 小小博客加载速度🈵慢多了都不怎么想用
+# npm V2.0.0 前端版本 更新
 
-# 这个项目式 fork 来的
+# 把 react 变成 preact
+# 去掉 font css
+# 去掉 babel-polyfill , 换 
+
+``` js
+import 'core-js/fn/promise'
+import "regenerator-runtime/runtime";
+```
+
+# 修复一些样式bug
