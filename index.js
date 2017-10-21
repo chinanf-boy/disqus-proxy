@@ -11,7 +11,6 @@ hexo.extend.filter.register('after_render:html', function (str) {
 
     //CND和外部资源
     const cdn = `
-      <script src="//cdn.bootcss.com/babel-polyfill/7.0.0-beta.2/polyfill.min.js"></script>
       <script src="//cdn.bootcss.com/moment.js/2.18.1/moment.min.js"></script>
       <script src="//cdn.bootcss.com/fetch/2.0.3/fetch.min.js"></script>
       <link rel="stylesheet" href="/styles/hexo-disqus-proxy.css"/>

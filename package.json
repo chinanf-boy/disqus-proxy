@@ -5,6 +5,7 @@
   "main": "index",
   "dependencies": {
     "babel-runtime": "^6.26.0",
+    "core-js": "^2.5.1",
     "hexo-fs": "^0.2.2",
     "kcors": "2",
     "koa": "^2.2.0",
@@ -13,6 +14,7 @@
     "log4js": "^1.1.1",
     "preact": "^8.2.5",
     "preact-compat": "^3.17.0",
+    "regenerator-runtime": "^0.11.0",
     "request": "^2.81.0",
     "request-promise-native": "^1.0.4",
     "socks5-https-client": "^1.2.0"
