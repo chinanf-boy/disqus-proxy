@@ -227,7 +227,7 @@ export default class commentBox extends Component {
             borderRadius: '4px'
           }
         }} onClick={this.commentMetaToggle}>
-          <i className="fa fa-comment-o" aria-hidden="true"/>
+          发言
         </button>
         <div style={{
           marginLeft: 'calc(100% - 220px)',
@@ -269,7 +269,7 @@ export default class commentBox extends Component {
               border: 'none'
             }
           }}>
-            <i className="fa fa-share" aria-hidden="true"/>
+            发送
           </button>
         </div>
       </div>
