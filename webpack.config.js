@@ -26,10 +26,6 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx', '.json']
   },
-  externals: {
-    react: 'React',
-    'react-dom': 'ReactDOM'
-  },
   plugins: [
     new CopyWebpackPlugin([
       {from: './src/avatars', to: resolve('./lib/avatars')},
