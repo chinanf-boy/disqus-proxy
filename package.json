@@ -10,6 +10,8 @@
     "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.2.0",
     "log4js": "^1.1.1",
+    "preact": "^8.2.5",
+    "preact-compat": "^3.17.0",
     "request": "^2.81.0",
     "request-promise-native": "^1.0.4",
     "socks5-https-client": "^1.2.0"
